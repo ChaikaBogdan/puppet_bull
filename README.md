@@ -1,6 +1,10 @@
 # puppet_bull
 Puppeteer task integrated into web app using Bull and Express
 
+```diff
+- Сan cause  pain, burning in the eyes and butt hurt, due lame spaghetti code. For example and educational purposes only.
+```
+
 ## How to run
 docker-compose up --build
 
