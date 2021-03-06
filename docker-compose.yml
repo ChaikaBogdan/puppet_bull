@@ -1,0 +1,16 @@
+version: "3"
+services:
+  redis:
+    image: redis:latest
+    command: ["redis-server", "--bind", "redis", "--port", "6379"]
+  app:
+    ipc: host
+    build: .
+    ports:
+      - "3000:3000"
+    command: node app.js
+    links:
+      - redis
+    depends_on:
+      - redis
+    restart: unless-stopped

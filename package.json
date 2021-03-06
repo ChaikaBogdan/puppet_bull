@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bull": "^3.20.1",
+    "bull-board": "^1.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^7.1.0"
+  },
+  "name": "puppet-bull",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
